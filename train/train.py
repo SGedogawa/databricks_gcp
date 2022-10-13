@@ -6,7 +6,7 @@
 import os
 
 from databricks_cli.sdk.api_client import ApiClient
-from databricks_cli.jobs.api import JobsApi
+from databricks_cli.clusters.api import ClusterApi
 
 api_client = ApiClient(
   host  = os.getenv('DATABRICKS_HOST'),
